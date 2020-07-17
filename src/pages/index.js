@@ -48,14 +48,14 @@ const img_set_2 = [
     full: true,
   },
   {
-    src: require('../assets/images/gallery/fulls/06.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/06.jpg'),
+    src: require('../assets/images/gallery/fulls/catalog.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/catalog.png'),
     title: 'Any source of enlightenment',
     desc: 'Be one with the soul',
   },
   {
-    src: require('../assets/images/gallery/fulls/07.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/07.jpg'),
+    src: require('../assets/images/gallery/fulls/cart.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/cart.png'),
     title: 'Be in present',
     desc: 'Be one with the present',
   },
@@ -154,7 +154,7 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>e-commerce|Bendfinger</h3>
+              <h3>e-commerce | Bendfinger</h3>
               <p>
                 This project reflects what I like about coding, a combination of
                 features and design. Builded from Scratch, implementing
