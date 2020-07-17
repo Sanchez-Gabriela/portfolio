@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
 import heroImage from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import pic2 from '../assets/images/profile.png';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'gatsby';
@@ -41,8 +41,8 @@ const img_set_1 = [
 ];
 const img_set_2 = [
   {
-    src: require('../assets/images/gallery/fulls/05.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/05.jpg'),
+    src: require('../assets/images/gallery/fulls/ecomm.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/ecomm.png'),
     title: 'Any Curiosity',
     desc: 'Be one with the curiosity',
     full: true,
