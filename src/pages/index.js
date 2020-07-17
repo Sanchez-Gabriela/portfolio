@@ -13,29 +13,10 @@ import { Link } from 'gatsby';
 
 const img_set_1 = [
   {
-    src: require('../assets/images/gallery/fulls/01.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/01.jpg'),
+    src: require('../assets/images/gallery/fulls/todo.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/todo.jpg'),
     title: 'Great Sky',
     desc: 'Be one with the Universe',
-    full: true,
-  },
-  {
-    src: require('../assets/images/gallery/fulls/02.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/02.jpg'),
-    title: 'High Mountains',
-    desc: 'Be one with the mountains',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/03.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/03.jpg'),
-    title: 'Any time ',
-    desc: 'Be one with the time',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/04.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/04.jpg'),
-    title: 'Any source of light',
-    desc: 'Be one with the light',
     full: true,
   },
 ];
@@ -139,12 +120,10 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>Erat aliquam</h3>
+              <h3>TODO list | chichi</h3>
               <p>
-                Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
-                etiam consequat, et lorem adipiscing sed dolor sit amet,
-                consectetur amet do eiusmod tempor incididunt ipsum suspendisse
-                ultrices gravida.
+                A pretty minimalist Todo list with the basic features like
+                adding, checking off and deleting tasks.
               </p>
             </header>
             <div className="content">
