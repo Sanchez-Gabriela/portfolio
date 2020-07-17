@@ -110,12 +110,11 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Ultrices erat magna sed condimentum</h2>
+          <h2>Projects</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Integer mollis egestas</strong> nam maximus erat id euismod
-            egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
+            <strong>Some of my projects during the bootcamp</strong>
           </p>
 
           <section>
