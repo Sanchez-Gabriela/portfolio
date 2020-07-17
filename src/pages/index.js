@@ -80,9 +80,17 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            I've been always interested in Web Development. I was a self-taught
-            for some years until I joined a great Bootcamp where I was to
-            improved my skills.
+            I am a web developer who loves creating applications from scratch
+            but it took some time to discover this passion. When I graduatedfrom
+            University as an Industrial Engineer, entering the industry as a
+            Planning Manager wasn't at all what I had prepared for. While I
+            enjoyed the business itself and working with and managing people, I
+            dearly missed problem solving and diving into logical challenges. It
+            was only when I was introduced to first coding groups and online
+            courses that I discovered my true destination. Joining an immersive
+            and real-world focused program in Vienna finally provided me with
+            the skills to be able to create applications and improve with every
+            day and every project.
           </p>
           <span className="image main">
             <img src={pic2} alt="" />
