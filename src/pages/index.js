@@ -13,8 +13,8 @@ import { Link } from 'gatsby';
 
 const img_set_1 = [
   {
-    src: require('../assets/images/gallery/fulls/todo.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/todo.jpg'),
+    src: require('../assets/images/gallery/fulls/todo.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/todo.png'),
     title: 'Great Sky',
     desc: 'Be one with the Universe',
     full: true,
