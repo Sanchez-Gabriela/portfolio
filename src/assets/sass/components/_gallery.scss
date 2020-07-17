@@ -34,11 +34,11 @@
 
     img {
       display: block;
-      height: 10vw;
-      min-height: 10rem;
+      height: 25vw;
+      min-height: 18rem;
       object-fit: cover;
       object-position: center;
-      width: 50%%;
+      width: 100%;
     }
 
     &.landscape {
@@ -218,12 +218,12 @@
       width: calc(50% - #{$gutter});
 
       img {
-        height: 10rem;
+        height: 20rem;
       }
 
       &.landscape {
         img {
-          height: 10rem;
+          height: 20rem;
         }
       }
 
