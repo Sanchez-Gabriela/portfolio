@@ -166,29 +166,11 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section>
-        <header>
-          <h2>More info</h2>
-        </header>
-        <div className="content">
-          <p>
-            <strong>Elements</strong> This starter contains all elements for a
-            page. Check it out
-          </p>
-          <ul className="actions">
-            <li>
-              <Link to="/Elements" className="button primary large">
-                Goto Elements Page
-              </Link>
-            </li>
-            {/* <li>
+      {/* <li>
               <a href="/#" className="button large">
                 Learn More
               </a>
             </li> */}
-          </ul>
-        </div>
-      </section>
 
       <section>
         <ContactForm />
