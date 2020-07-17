@@ -13,7 +13,7 @@ import { Link } from 'gatsby';
 
 const img_set_1 = [
   {
-    src: require('../assets/images/gallery/fulls/01.jpg'),
+    src: require('../assets/images/gallery/fulls/80s.jpg'),
     thumbnail: require('../assets/images/gallery/thumbs/01.jpg'),
     title: 'Great Sky',
     desc: 'Be one with the Universe',
@@ -99,7 +99,9 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            I've been always interested in Web Development. I was a self-taught for some years until I joined a great Bootcamp where I was to improved my skills.
+            I've been always interested in Web Development. I was a self-taught
+            for some years until I joined a great Bootcamp where I was to
+            improved my skills.
           </p>
           <span className="image main">
             <img src={pic2} alt="" />
