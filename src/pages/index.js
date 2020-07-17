@@ -111,27 +111,19 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Feugiat consequat tempus ultrices</h2>
+          <h2>Technologies</h2>
         </header>
         <div className="content">
-          <p>
-            <strong>Etiam tristique libero</strong> eu nibh porttitor amet
-            fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies
-            condimentum.
-          </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Consequat tempus</li>
-            <li className="icon fa-bolt">Etiam adipiscing</li>
-            <li className="icon fa-signal">Libero nullam</li>
-            <li className="icon fa-gear">Blandit condimentum</li>
-            <li className="icon fa-map-marker">Lorem ipsum dolor</li>
-            <li className="icon fa-code">Nibh amet venenatis</li>
+            <li>CSS </li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>PostgreSQL</li>
+            <li>Cypress</li>
           </ul>
-          <p>
-            Vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
-          </p>
         </div>
       </section>
 
@@ -162,12 +154,12 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>Nisl consequat</h3>
+              <h3>e-commerce|Bendfinger</h3>
               <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-                aliquam sed facilisis ante interdum congue. Integer mollis, nisl
-                amet convallis, porttitor magna ullamcorper, amet mauris. Ut
-                magna finibus nisi nec lacinia ipsum maximus.
+                This project reflects what I like about coding, a combination of
+                features and design. Builded from Scratch, implementing
+                authentication, database, user experience and testing.
+                Technologies: PostgreSQL, Next.js, Emotion, Cypress.
               </p>
             </header>
             <div className="content">

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import pic04 from '../assets/images/gallery/fulls/01.jpg';
-import pic05 from '../assets/images/gallery/fulls/05.jpg';
+import pic05 from '../assets/images/gallery/fulls/ecomm.png';
 
 const IndexPage = () => (
   <Layout>
