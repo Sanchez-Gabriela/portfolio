@@ -25,7 +25,7 @@ const IndexPage = () => (
             <hr />
             <header>
               <h4>Where am I?</h4>
-              <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+              <p>Making making</p>
             </header>
             <p>
               Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida
