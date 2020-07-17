@@ -48,8 +48,8 @@ const img_set_2 = [
     full: true,
   },
   {
-    src: require('../assets/images/gallery/fulls/catalog.png'),
-    thumbnail: require('../assets/images/gallery/thumbs/catalog.png'),
+    src: require('../assets/images/gallery/fulls/thumbnailEcomm.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/thumbnailEcomm.png'),
     title: 'Any source of enlightenment',
     desc: 'Be one with the soul',
   },
