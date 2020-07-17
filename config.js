@@ -15,20 +15,20 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/Sanchez-Gabriela',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/gab_veg',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-linkedin',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/gabriela-s%C3%A1nchez-b591251b2/',
     },
   ],
-  emailId: 'gaby.peta@gmail@gmail.com',
+  emailId: 'gaby.peta@gmail.com',
   phone: '+43 676 488 05 98',
   address: 'Vienna, Austria',
 };
