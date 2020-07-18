@@ -93,9 +93,7 @@ const IndexPage = () => (
             day and every project.
           </p>
           <span className="image main">
-            <a href="https://zealous-hypatia-e0e439.netlify.app/">
-              <img src={pic2} alt="" />
-            </a>
+            <img src={pic2} alt="" />
           </span>
         </div>
       </section>
@@ -136,7 +134,9 @@ const IndexPage = () => (
               </p>
             </header>
             <div className="content">
-              <Gallery images={img_set_1} />
+              <a href="https://zealous-hypatia-e0e439.netlify.app/">
+                <Gallery images={img_set_1} />
+              </a>
             </div>
           </section>
 
