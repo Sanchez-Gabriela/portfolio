@@ -105,12 +105,12 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <ul className="feature-icons">
-            <li>CSS </li>
-            <li>HTML</li>
             <li>JavaScript</li>
-            <li>Node.js</li>
             <li>React</li>
             <li>Next.js</li>
+            <li>Node.js</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>PostgreSQL</li>
             <li>Cypress</li>
           </ul>
