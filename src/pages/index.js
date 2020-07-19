@@ -15,8 +15,8 @@ const img_set_1 = [
   {
     src: require('../assets/images/gallery/fulls/todo.png'),
     thumbnail: require('../assets/images/gallery/thumbs/todo.png'),
-    title: 'Great Sky',
-    desc: 'Be one with the Universe',
+    title: 'Todo list',
+    desc: 'Simple app, add, ckeck off, delete, clear all',
     full: true,
   },
 ];
@@ -24,21 +24,22 @@ const img_set_2 = [
   {
     src: require('../assets/images/gallery/fulls/ecomm.png'),
     thumbnail: require('../assets/images/gallery/thumbs/ecomm.png'),
-    title: 'Any Curiosity',
-    desc: 'Be one with the curiosity',
+    title: 'Landing page',
+    desc: 'e-commerce (sinthesizers)',
     full: true,
   },
   {
     src: require('../assets/images/gallery/fulls/catalog.png'),
     thumbnail: require('../assets/images/gallery/thumbs/catalog.png'),
-    title: 'Any source of enlightenment',
-    desc: 'Be one with the soul',
+    title: 'List of products',
+    desc: 'Briefly review of all products and sound samples 🎹',
   },
   {
     src: require('../assets/images/gallery/fulls/thumbnailEcomm.png'),
     thumbnail: require('../assets/images/gallery/thumbs/thumbnailEcomm.png'),
-    title: 'Be in present',
-    desc: 'Be one with the present',
+    title: 'Cart page',
+    desc:
+      'List of selected products. Users can change quantity or remove items from the list.',
   },
 ];
 const img_set_3 = [
@@ -130,12 +131,13 @@ const IndexPage = () => (
               <h3>TODO list | chichi</h3>
               <p>
                 A pretty minimalist Todo list with the basic features like
-                adding, checking off and deleting tasks.
+                adding, checking off and deleting tasks. Builded with React.
               </p>
             </header>
             <div className="content">
+              <Gallery images={img_set_1} />
               <a href="https://zealous-hypatia-e0e439.netlify.app/">
-                <Gallery images={img_set_1} />
+                Visit this App ⚡
               </a>
             </div>
           </section>
@@ -153,18 +155,22 @@ const IndexPage = () => (
             <div className="content">
               <div className="gallery">
                 <Gallery images={img_set_2} />
+                <a href="https://zealous-hypatia-e0e439.netlify.app/">
+                  Visit this App ⚡
+                </a>
               </div>
             </div>
           </section>
 
           <section>
             <header>
-              <h3>Lorem gravida</h3>
+              <h3>Final project | Wolfi</h3>
               <p>
-                Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-                feugiat tempus aenean ornare velit lacus, ac varius sed enim
-                lorem ullamcorper dolore. ac varius enim lorem ullamcorper
-                dolore. Proin aliquam facilisis.
+                Wolfi is the first version of an idea. It has been builded
+                thinking on those who are spending few days in the city and want
+                proper recommendations based on their interests. Save time and
+                makes the journey interesting. Builded with Next.js, Emotion and
+                PostgreSQL.
               </p>
             </header>
             <div className="content">
