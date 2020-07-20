@@ -44,22 +44,22 @@ const img_set_2 = [
 ];
 const img_set_3 = [
   {
-    src: require('../assets/images/gallery/fulls/08.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/08.jpg'),
-    title: 'Give away',
-    desc: 'Be one with the empathy',
+    src: require('../assets/images/gallery/fulls/landing.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/landing.png'),
+    title: 'landing page',
+    desc: 'on progress',
   },
   {
-    src: require('../assets/images/gallery/fulls/09.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/09.jpg'),
-    title: 'Moment',
-    desc: 'Be one with the moment',
+    src: require('../assets/images/gallery/fulls/tags.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/selector.png'),
+    title: 'dropdown',
+    desc: 'user selects the categories of interest',
   },
   {
-    src: require('../assets/images/gallery/fulls/10.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/10.jpg'),
-    title: 'Serenity',
-    desc: 'Be one with the purity',
+    src: require('../assets/images/gallery/fulls/plan.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/plan.png'),
+    title: 'journey',
+    desc: 'plan made with user`s selection',
     full: true,
   },
 ];
