@@ -155,7 +155,11 @@ const IndexPage = () => (
             <div className="content">
               <div className="gallery">
                 <Gallery images={img_set_2} />
-                <a href="https://zealous-hypatia-e0e439.netlify.app/">
+                <a
+                  role="img"
+                  aria-label="bolt"
+                  href="https://zealous-hypatia-e0e439.netlify.app/"
+                >
                   Visit this App ⚡
                 </a>
               </div>
