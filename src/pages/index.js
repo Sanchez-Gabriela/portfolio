@@ -51,7 +51,7 @@ const img_set_3 = [
   },
   {
     src: require('../assets/images/gallery/fulls/tags.png'),
-    thumbnail: require('../assets/images/gallery/thumbs/selector.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/tags.png'),
     title: 'dropdown',
     desc: 'user selects the categories of interest',
   },
