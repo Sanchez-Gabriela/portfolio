@@ -190,7 +190,7 @@ const IndexPage = () => (
                 <a
                   role="img"
                   aria-label="bolt"
-                  href="https://zealous-hypatia-e0e439.netlify.app/"
+                  href="https://next-js-e-commerce-store.herokuapp.com/"
                 >
                   Visit this App ⚡
                 </a>
@@ -200,7 +200,7 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>Final project | Wolfi</h3>
+              <h3>Final project in progress| Wolfi</h3>
               <p>
                 Wolfi is the first version of an idea. It has been built
                 thinking on those who are spending few days in the city and want
