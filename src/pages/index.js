@@ -11,6 +11,16 @@ import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'gatsby';
 
+const img_set_0 = [
+  {
+    src: require('../assets/images/gallery/fulls/colorgenerator2.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/colorgenerator2.png'),
+    title: 'Color Generator',
+    desc: 'Simple app, change the background color by clicking the button',
+    full: true,
+  },
+];
+
 const img_set_1 = [
   {
     src: require('../assets/images/gallery/fulls/todo.png'),
@@ -82,9 +92,9 @@ const IndexPage = () => (
         <div className="content">
           <p>
             I am a web developer who loves creating applications from scratch
-            but it took some time to discover this passion. When I graduatedfrom
-            University as an Industrial Engineer, entering the industry as a
-            Planning Manager wasn't at all what I had prepared for. While I
+            but it took some time to discover this passion. When I graduated
+            from University as an Industrial Engineer, entering the industry as
+            a Planning Manager wasn't at all what I had prepared for. While I
             enjoyed the business itself and working with and managing people, I
             dearly missed problem solving and diving into logical challenges. It
             was only when I was introduced to first coding groups and online
@@ -128,10 +138,32 @@ const IndexPage = () => (
 
           <section>
             <header>
+              <h3>Color generator</h3>
+              <p>
+                App changes color by clicking the button. Technologies: React,
+                css.
+              </p>
+            </header>
+            <div className="content">
+              <div className="gallery">
+                <Gallery images={img_set_0} />
+                <a
+                  role="img"
+                  aria-label="bolt"
+                  href="https://app.netlify.com/sites/pedantic-meitner-598592/overview"
+                >
+                  Visit this App ⚡
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <header>
               <h3>TODO list | chichi</h3>
               <p>
                 A pretty minimalist Todo list with the basic features like
-                adding, checking off and deleting tasks. Builded with React.
+                adding, checking off and deleting tasks. Built in React.
               </p>
             </header>
             <div className="content">
@@ -170,10 +202,10 @@ const IndexPage = () => (
             <header>
               <h3>Final project | Wolfi</h3>
               <p>
-                Wolfi is the first version of an idea. It has been builded
+                Wolfi is the first version of an idea. It has been built
                 thinking on those who are spending few days in the city and want
                 proper recommendations based on their interests. Save time and
-                makes the journey interesting. Builded with Next.js, Emotion and
+                makes the journey interesting. Built in Next.js, Emotion and
                 PostgreSQL.
               </p>
             </header>
