@@ -179,7 +179,7 @@ const IndexPage = () => (
               <h3>e-commerce | Bendfinger</h3>
               <p>
                 This project reflects what I like about coding, a combination of
-                features and design. Builded from Scratch, implementing
+                features and design. built from Scratch, implementing
                 authentication, database, user experience and testing.
                 Technologies: PostgreSQL, Next.js, Emotion, Cypress.
               </p>
