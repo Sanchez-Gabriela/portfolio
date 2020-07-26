@@ -150,7 +150,7 @@ const IndexPage = () => (
                 <a
                   role="img"
                   aria-label="bolt"
-                  href="https://app.netlify.com/sites/pedantic-meitner-598592/overview"
+                  href="https://pedantic-meitner-598592.netlify.app/"
                 >
                   Visit this App ⚡
                 </a>
