@@ -44,8 +44,8 @@ const img_set_2 = [
 ];
 const img_set_3 = [
   {
-    src: require('../assets/images/gallery/fulls/landing.png'),
-    thumbnail: require('../assets/images/gallery/thumbs/landing.png'),
+    src: require('../assets/images/gallery/fulls/landingpage.png'),
+    thumbnail: require('../assets/images/gallery/thumbs/landingpage.png'),
     title: 'landing page',
     desc: 'on progress',
   },
